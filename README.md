@@ -1,1 +1,1 @@
-My dotfiles for arch linux.
+My dotfiles and wallpapers for arch linux.
