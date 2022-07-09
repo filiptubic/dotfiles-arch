@@ -1,0 +1,18 @@
+// * {
+//     background:                     #29384Fff;
+//     background-alt:                 #29384Fff;
+//     foreground:                     #FEFFF1ff;
+//     border:               			#345B7Cff;
+//     border-alt:               		#715979ff;
+//     selected:               		#C46C851a;
+//     urgent:                         #DA4453FF;
+// }
+* {
+    background:                     #13031Dff;
+    background-alt:                 #29384Fff;
+    foreground:                     #FEFFF1ff;
+    border:               			#02BAA0ff;
+    border-alt:               		#015B59ff;
+    selected:               		#015A58ff;
+    urgent:                         #DA4453FF;
+}
