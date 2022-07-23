@@ -1,0 +1,7 @@
+export PATH=$(go env GOPATH)/bin:$PATH
+export DESKTOP_SESSION="bspwm"
+export PATH=$HOME/.config/rofi/bin:$PATH
+
+cat ~/.cache/wal/sequences
+source ~/.cache/wal/colors-tty.sh
+source ~/.cache/wal/colors.sh

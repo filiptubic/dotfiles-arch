@@ -112,9 +112,10 @@ cat ~/.cache/wal/sequences
 source ~/.cache/wal/colors-tty.sh
 source ~/.cache/wal/colors.sh
 
-# startx after login
-if [[ -z $DISPLAY ]] && [[ $(tty) = /dev/tty1 ]]; then
-    startx
-fi
+## uncomment to use with xinit
+## startx after login
+#if [[ -z $DISPLAY ]] && [[ $(tty) = /dev/tty1 ]]; then
+#    startx
+#fi
 
 
