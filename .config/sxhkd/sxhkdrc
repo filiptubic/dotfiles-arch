@@ -142,6 +142,10 @@ super + ctrl + {Left,Down,Up,Right}
 super + Print
 	maim -u > ~/Pictures/Screenshots/screenshot-$(date '+%Y%m%d-%H%M%S').png
 
+# emoji picker
+super + e
+	emoji_picker
+
 XF86AudioMute
     pactl set-sink-mute @DEFAULT_SINK@ toggle
 XF86AudioRaiseVolume
