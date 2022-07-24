@@ -27,6 +27,7 @@ bspc rule -a Org.gnome.Nautilus desktop='^5' state=floating
 bspc rule -a Slack state=floating
 bspc rule -a Gnome-calculator state=floating
 bspc rule -a ViberPC state=floating desktop='^10'
+bspc rule -a Whatsapp-for-linux state=floating desktop='^10'
 
 
 $HOME/.config/polybar/launch.sh --material
