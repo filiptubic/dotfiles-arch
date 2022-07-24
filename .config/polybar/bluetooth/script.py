@@ -1,14 +1,5 @@
 import subprocess
 
-cmd = r'''bluetoothctl paired-devices | cut -f2 -d' '|
-while read -r uuid
-do
-    info=`bluetoothctl info $uuid`
-    if echo "$info" | grep -q "Connected: yes"; then
-       echo "$info" | grep "Name"
-    fi
-done
-'''
 
 def extract_uuid(device):
     return device.lstrip('Device').strip().split(' ')[0].strip()
