@@ -3,7 +3,7 @@ if [ $(bluetoothctl show | grep "Powered: yes" | wc -c) -eq 0 ]
 then
   echo ""
 else
-  connected=$(python $HOME/.config/polybar/bluetooth/script.py)
+  connected=$(python $HOME/.config/polybar/custom_scripts/bluetooth/script.py)
   if [ -z "${connected}" ];
   then
     echo ""
